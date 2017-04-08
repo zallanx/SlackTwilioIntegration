@@ -14,6 +14,8 @@
 		6F789E251E9986BB00077B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F789E231E9986BB00077B48 /* LaunchScreen.storyboard */; };
 		6F789E301E9986BB00077B48 /* SlackTwilioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F789E2F1E9986BB00077B48 /* SlackTwilioTestTests.swift */; };
 		6F789E3B1E9986BB00077B48 /* SlackTwilioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F789E3A1E9986BB00077B48 /* SlackTwilioTestUITests.swift */; };
+		6F789E491E9987C900077B48 /* Messenger-Shared in Resources */ = {isa = PBXBuildFile; fileRef = 6F789E481E9987C900077B48 /* Messenger-Shared */; };
+		C99A153BE636104152A0DE17 /* Pods_SlackTwilioTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE3E5938A8F99D82E912A74 /* Pods_SlackTwilioTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		6F789E361E9986BB00077B48 /* SlackTwilioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackTwilioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F789E3A1E9986BB00077B48 /* SlackTwilioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackTwilioTestUITests.swift; sourceTree = "<group>"; };
 		6F789E3C1E9986BB00077B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F789E481E9987C900077B48 /* Messenger-Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Messenger-Shared"; sourceTree = "<group>"; };
+		9E8BD820FD6BB193BAD22910 /* Pods-SlackTwilioTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackTwilioTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlackTwilioTest/Pods-SlackTwilioTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC419AFE8C99D50D68DF64C /* Pods-SlackTwilioTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackTwilioTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlackTwilioTest/Pods-SlackTwilioTest.release.xcconfig"; sourceTree = "<group>"; };
+		CCE3E5938A8F99D82E912A74 /* Pods_SlackTwilioTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlackTwilioTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99A153BE636104152A0DE17 /* Pods_SlackTwilioTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641B84172921DFC94CC672F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE3E5938A8F99D82E912A74 /* Pods_SlackTwilioTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F789E0E1E9986BB00077B48 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				6F789E2E1E9986BB00077B48 /* SlackTwilioTestTests */,
 				6F789E391E9986BB00077B48 /* SlackTwilioTestUITests */,
 				6F789E181E9986BB00077B48 /* Products */,
+				BAC84937EA736560E64A14D0 /* Pods */,
+				641B84172921DFC94CC672F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +114,7 @@
 		6F789E191E9986BB00077B48 /* SlackTwilioTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F789E481E9987C900077B48 /* Messenger-Shared */,
 				6F789E1A1E9986BB00077B48 /* AppDelegate.swift */,
 				6F789E1C1E9986BB00077B48 /* ViewController.swift */,
 				6F789E1E1E9986BB00077B48 /* Main.storyboard */,
@@ -125,6 +143,15 @@
 			path = SlackTwilioTestUITests;
 			sourceTree = "<group>";
 		};
+		BAC84937EA736560E64A14D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8BD820FD6BB193BAD22910 /* Pods-SlackTwilioTest.debug.xcconfig */,
+				CBC419AFE8C99D50D68DF64C /* Pods-SlackTwilioTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F789E3F1E9986BB00077B48 /* Build configuration list for PBXNativeTarget "SlackTwilioTest" */;
 			buildPhases = (
+				861818A82B35A58F461A4BC9 /* [CP] Check Pods Manifest.lock */,
 				6F789E131E9986BB00077B48 /* Sources */,
 				6F789E141E9986BB00077B48 /* Frameworks */,
 				6F789E151E9986BB00077B48 /* Resources */,
+				4FC5AEC2CD370E8335876061 /* [CP] Embed Pods Frameworks */,
+				BD327DDF85B31512AC68977D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F789E251E9986BB00077B48 /* LaunchScreen.storyboard in Resources */,
+				6F789E491E9987C900077B48 /* Messenger-Shared in Resources */,
 				6F789E221E9986BB00077B48 /* Assets.xcassets in Resources */,
 				6F789E201E9986BB00077B48 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +287,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FC5AEC2CD370E8335876061 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackTwilioTest/Pods-SlackTwilioTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861818A82B35A58F461A4BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD327DDF85B31512AC68977D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackTwilioTest/Pods-SlackTwilioTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F789E131E9986BB00077B48 /* Sources */ = {
@@ -415,6 +494,7 @@
 		};
 		6F789E401E9986BB00077B48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8BD820FD6BB193BAD22910 /* Pods-SlackTwilioTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X2AGFT2D8U;
@@ -428,6 +508,7 @@
 		};
 		6F789E411E9986BB00077B48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC419AFE8C99D50D68DF64C /* Pods-SlackTwilioTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X2AGFT2D8U;
@@ -516,6 +597,7 @@
 				6F789E411E9986BB00077B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F789E421E9986BB00077B48 /* Build configuration list for PBXNativeTarget "SlackTwilioTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +606,7 @@
 				6F789E441E9986BB00077B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F789E451E9986BB00077B48 /* Build configuration list for PBXNativeTarget "SlackTwilioTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +615,7 @@
 				6F789E471E9986BB00077B48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.2.0)
+  - LoremIpsum (1.0.0)
+  - SlackTextViewController (1.9.5)
+  - SwiftyJSON (3.1.4)
+  - TwilioChatClient (0.17.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - LoremIpsum (~> 1.0)
+  - SlackTextViewController
+  - SwiftyJSON
+  - TwilioChatClient (~> 0.17)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  LoremIpsum: 9029c55d36501b2ee0b05cc9ecda11d3a0479160
+  SlackTextViewController: fbcdadbb8090673f604484ff5b6eb8d77baed42a
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TwilioChatClient: 5171074293fdecd1f26a09a21096950812a834d5
+
+PODFILE CHECKSUM: 102c907848338e00d7a58546797c4c2263f5444f
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module Pods_SlackTwilioTest {
+  umbrella header "Pods-SlackTwilioTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
